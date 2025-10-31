@@ -1,0 +1,103 @@
+
+To start making custom recipes, you need to write an import:
+import mods.dominatorworkbench.DominatorWorkbench;
+
+Here are a couple of examples of crafts from the shaped recipes category:
+
+DominatorWorkbench.addShapedRecipe(<minecraft:dragon_egg>,
+    [
+        [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>],
+        [<minecraft:obsidian>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:obsidian>],
+        [<minecraft:obsidian>, <minecraft:diamond_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:diamond_block>, <minecraft:obsidian>],
+        [<minecraft:obsidian>, <minecraft:diamond_block>, <minecraft:emerald_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:emerald_block>, <minecraft:diamond_block>, <minecraft:obsidian>],
+        [<minecraft:obsidian>, <minecraft:diamond_block>, <minecraft:emerald_block>, <minecraft:gold_block>, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:gold_block>, <minecraft:emerald_block>, <minecraft:diamond_block>, <minecraft:obsidian>],
+        [<minecraft:obsidian>, <minecraft:diamond_block>, <minecraft:emerald_block>, <minecraft:gold_block>, <minecraft:iron_block>, <minecraft:nether_star>, <minecraft:iron_block>, <minecraft:gold_block>, <minecraft:emerald_block>, <minecraft:diamond_block>, <minecraft:obsidian>],
+        [<minecraft:obsidian>, <minecraft:diamond_block>, <minecraft:emerald_block>, <minecraft:gold_block>, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:gold_block>, <minecraft:emerald_block>, <minecraft:diamond_block>, <minecraft:obsidian>],
+        [<minecraft:obsidian>, <minecraft:diamond_block>, <minecraft:emerald_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:emerald_block>, <minecraft:diamond_block>, <minecraft:obsidian>],
+        [<minecraft:obsidian>, <minecraft:diamond_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:emerald_block>, <minecraft:diamond_block>, <minecraft:obsidian>],
+        [<minecraft:obsidian>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:obsidian>],
+        [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
+    ]
+);
+
+DominatorWorkbench.addShapedRecipe(<theoneprobe:creativeprobe>, 
+    [
+        [<minecraft:diamond>, null, null, null, null, <minecraft:iron_block>, null, null, null, null, <minecraft:diamond>],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [<minecraft:iron_block>, null, null, null, null, <minecraft:glass>, null, null, null, null, <minecraft:iron_block>],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [<minecraft:diamond>, null, null, null, null, <minecraft:iron_block>, null, null, null, null, <minecraft:diamond>]
+    ]
+);
+
+DominatorWorkbench.addShapedRecipe(<minecraft:diamond>, 
+    [
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, <minecraft:dirt>, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null]
+    ]
+);
+
+DominatorWorkbench.addShapedRecipe(<minecraft:chest>,
+    [
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, <minecraft:planks>, <minecraft:planks>, <minecraft:planks>, null, null, null, null],
+        [null, null, null, null, <minecraft:planks>, null, <minecraft:planks>, null, null, null, null],
+        [null, null, null, null, <minecraft:planks>, <minecraft:planks>, <minecraft:planks>, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null]
+    ]
+);
+
+DominatorWorkbench.addShapedRecipe(<minecraft:beacon>,
+    [
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, null, null, null, null],
+        [null, null, null, <minecraft:glass>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:glass>, null, null, null],
+        [null, null, <minecraft:glass>, <minecraft:obsidian>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, <minecraft:obsidian>, <minecraft:glass>, null, null],
+        [null, null, <minecraft:glass>, <minecraft:obsidian>, <minecraft:glass>, <minecraft:nether_star>, <minecraft:glass>, <minecraft:obsidian>, <minecraft:glass>, null, null],
+        [null, null, <minecraft:glass>, <minecraft:obsidian>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, <minecraft:obsidian>, <minecraft:glass>, null, null],
+        [null, null, null, <minecraft:glass>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:glass>, null, null, null],
+        [null, null, null, null, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null],
+        [null, null, null, null, null, null, null, null, null, null, null]
+    ]
+);
+
+Here are some examples of crafting from the shapeless recipes category:
+
+DominatorWorkbench.addShapelessRecipe(<minecraft:gold_ingot>, [
+    <minecraft:iron_ingot>
+]);
+
+DominatorWorkbench.addShapelessRecipe(<minecraft:cake>, [
+    <minecraft:milk_bucket>,
+    <minecraft:milk_bucket>, 
+    <minecraft:milk_bucket>,
+    <minecraft:sugar>,
+    <minecraft:egg>,
+    <minecraft:wheat>
+]);
+
+
+
