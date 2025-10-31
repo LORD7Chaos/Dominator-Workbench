@@ -1,0 +1,12 @@
+[{
+    "modid": "${modid}",
+    "name": "${modname}",
+    "description": "Dominator Workbench that will dominate everything",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "logoFile": "assets/dominatorworkbench/logo_mod.png",
+    "url": "",
+    "authorList": [7lord_chaos7],
+    "credits": "",
+    "dependencies": [crafttweaker2]
+}]

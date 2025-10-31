@@ -1,0 +1,17 @@
+// Add any additional repositories for your dependencies here
+
+repositories {
+    mavenCentral()
+    maven {
+        name = "Progwml6"
+        url = "https://dvs1.progwml6.com/files/maven"
+    }
+    maven {
+        name = "BlameJared"
+        url = "https://maven.blamejared.com"
+    }
+    maven {
+        name = "CurseMaven"
+        url = "https://cursemaven.com"
+    }
+}
