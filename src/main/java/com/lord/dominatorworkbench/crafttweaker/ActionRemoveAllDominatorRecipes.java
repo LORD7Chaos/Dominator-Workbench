@@ -1,6 +1,6 @@
 package com.lord.dominatorworkbench.crafttweaker;
 
-import com.lord.dominatorworkbench.recipes.DominatorRecipes;
+import com.lord.dominatorworkbench.recipes.dominator.DominatorRecipes;
 import crafttweaker.IAction;
 
 public class ActionRemoveAllDominatorRecipes implements IAction {

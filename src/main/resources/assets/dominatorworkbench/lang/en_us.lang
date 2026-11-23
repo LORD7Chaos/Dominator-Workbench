@@ -1,4 +1,51 @@
-
+# Blocks
+tile.dominator_workbench_basic.name=Basic Workbench
+tile.dominator_workbench_enhanced.name=Enhanced Workbench
+tile.dominator_workbench_master.name=Master Workbench
+tile.dominator_workbench_titan.name=Titan Workbench
 tile.dominator_workbench.name=Dominator Workbench
-item.dominator_workbench.name=Dominator Workbench
+tile.dominator_workbench_omega.name=Omega Workbench
+tile.dominator_workbench_universe.name=Universe Workbench
+
+item.craft_creator.name=Craft Creator
+
+itemGroup.dominatorworkbench=Dominator Workbench
+
+jei.dominatorworkbench.basic.category=Basic Workbench
+jei.dominatorworkbench.enhanced.category=Enhanced Workbench
+jei.dominatorworkbench.master.category=Master Workbench
+jei.dominatorworkbench.titan.category=Titan Workbench
 jei.dominatorworkbench.category=Dominator Workbench
+jei.dominatorworkbench.omega.category=Omega Workbench
+jei.dominatorworkbench.universe.category=Universe Workbench
+
+mode.dominatorworkbench.shaped=Shaped
+mode.dominatorworkbench.shapeless=Shapeless
+
+tooltip.dominatorworkbench.craft_creator.mode=§7Mode: §e%s
+tooltip.dominatorworkbench.craft_creator.copy=§7Shift + RMB on workbench: §aCopy recipe
+tooltip.dominatorworkbench.craft_creator.switch=§7Shift + RMB in air: §eSwitch mode
+tooltip.dominatorworkbench.craft_creator.instruction1=§7After copying, paste the recipe
+tooltip.dominatorworkbench.craft_creator.instruction2=§7into .zs file and replace §6null §7with result
+
+message.dominatorworkbench.craft_creator.empty=§cWorkbench is empty! Put items to create a recipe.
+message.dominatorworkbench.craft_creator.copied=§aRecipe (%s) copied to clipboard!
+message.dominatorworkbench.craft_creator.copy_error=§cError copying to clipboard!
+message.dominatorworkbench.craft_creator.mode_changed=§eMode changed to: §6%s
+message.dominatorworkbench.craft_creator.invalid_workbench=§cThis is not a valid Dominator Workbench!
+tile.workbench.basic.name=Basic Workbench
+tile.workbench.enhanced.name=Enhanced Workbench
+tile.workbench.master.name=Master Workbench
+tile.workbench.titan.name=Titan Workbench
+tile.workbench.dominator.name=Dominator Workbench
+tile.workbench.omega.name=Omega Workbench
+tile.workbench.universe.name=Universe Workbench
+
+tile.auto_workbench.basic.name=Basic Automatic Workbench
+tile.auto_workbench.enhanced.name=Enhanced Automatic Workbench
+tile.auto_workbench.master.name=Master Automatic Workbench
+tile.auto_workbench.titan.name=Titan Automatic Workbench
+tile.auto_workbench.dominator.name=Dominator Automatic Workbench
+tile.auto_workbench.omega.name=Omega Automatic Workbench
+tile.auto_workbench.universe.name=Universe Automatic Workbench
+container.dominatorworkbench.auto=Automatic Workbench

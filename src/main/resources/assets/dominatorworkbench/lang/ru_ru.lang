@@ -1,3 +1,48 @@
+tile.dominator_workbench_basic.name=Базовый верстак
+tile.dominator_workbench_enhanced.name=Усиленный верстак
+tile.dominator_workbench_master.name=Мастерский верстак
+tile.dominator_workbench_titan.name=Титановый верстак
 tile.dominator_workbench.name=Верстак Доминатора
-item.dominator_workbench.name=Верстак Доминатора
+tile.dominator_workbench_omega.name=Верстак Омеги
+tile.dominator_workbench_universe.name=Верстак Мироздания
+
+itemGroup.dominatorworkbench=Верстак Доминатора
+
+jei.dominatorworkbench.basic.category=Базовый верстак
+jei.dominatorworkbench.enhanced.category=Усиленный верстак
+jei.dominatorworkbench.master.category=Мастерский верстак
+jei.dominatorworkbench.titan.category=Титановый верстак
 jei.dominatorworkbench.category=Верстак Доминатора
+jei.dominatorworkbench.omega.category=Верстак Омеги
+jei.dominatorworkbench.universe.category=Верстак Мироздания
+
+mode.dominatorworkbench.shaped=Формованный
+mode.dominatorworkbench.shapeless=Бесформенный
+
+tooltip.dominatorworkbench.craft_creator.mode=§7Режим: §e%s
+tooltip.dominatorworkbench.craft_creator.copy=§7Shift + ПКМ по верстаку: §aКопировать рецепт
+tooltip.dominatorworkbench.craft_creator.switch=§7Shift + ПКМ в воздухе: §eСменить режим
+tooltip.dominatorworkbench.craft_creator.instruction1=§7После копирования вставьте рецепт
+tooltip.dominatorworkbench.craft_creator.instruction2=§7в .zs файл и замените §6null §7на результат
+
+message.dominatorworkbench.craft_creator.empty=§cВерстак пуст! Положите предметы для создания рецепта.
+message.dominatorworkbench.craft_creator.copied=§aРецепт (%s) скопирован в буфер обмена!
+message.dominatorworkbench.craft_creator.copy_error=§cОшибка копирования в буфер обмена!
+message.dominatorworkbench.craft_creator.mode_changed=§eРежим изменён на: §6%s
+message.dominatorworkbench.craft_creator.invalid_workbench=§cЭто не является верстаком Доминатора!
+tile.workbench.basic.name=Basic Workbench
+tile.workbench.enhanced.name=Enhanced Workbench
+tile.workbench.master.name=Master Workbench
+tile.workbench.titan.name=Titan Workbench
+tile.workbench.dominator.name=Dominator Workbench
+tile.workbench.omega.name=Omega Workbench
+tile.workbench.universe.name=Universe Workbench
+
+tile.auto_workbench.basic.name=Базовый Автоматический верстак
+tile.auto_workbench.enhanced.name=Улучшенный Автоматический верстак
+tile.auto_workbench.master.name=Мастерский Автоматический верстак
+tile.auto_workbench.titan.name=Титановый Автоматический верстак
+tile.auto_workbench.dominator.name=Доминатор Автоматический верстак
+tile.auto_workbench.omega.name=Омега Автоматический верстак
+tile.auto_workbench.universe.name=Вселенский Автоматический верстак
+container.dominatorworkbench.auto=Автоматический верстак

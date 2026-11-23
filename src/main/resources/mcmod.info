@@ -1,12 +1,17 @@
-[{
-    "modid": "${modid}",
-    "name": "${modname}",
-    "description": "Dominator Workbench that will dominate everything",
-    "version": "${version}",
-    "mcversion": "${mcversion}",
-    "logoFile": "assets/dominatorworkbench/logo_mod.png",
-    "url": "",
-    "authorList": [7lord_chaos7],
-    "credits": "",
-    "dependencies": [crafttweaker2]
-}]
+[
+  {
+    "modid": "dominatorworkbench",
+    "name": "Dominator Workbench",
+    "description": "11x11 Crafting Workbench with CraftTweaker support and Craft Creator tool",
+    "version": "3.1.0",
+    "mcversion": "1.12.2",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/dominator-workbench",
+    "authorList": ["Lord"],
+    "credits": "Thanks to the modding community!",
+    "logoFile": "logo_mod.png",
+    "dependencies": [
+      "crafttweaker",
+      "jei"
+    ]
+  }
+]

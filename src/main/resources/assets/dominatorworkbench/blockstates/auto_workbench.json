@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "tier=0": {
+      "model": "dominatorworkbench:auto_workbench_0"
+    },
+    "tier=1": {
+      "model": "dominatorworkbench:auto_workbench_1"
+    },
+    "tier=2": {
+      "model": "dominatorworkbench:auto_workbench_2"
+    },
+    "tier=3": {
+      "model": "dominatorworkbench:auto_workbench_3"
+    },
+    "tier=4": {
+      "model": "dominatorworkbench:auto_workbench_4"
+    },
+    "tier=5": {
+      "model": "dominatorworkbench:auto_workbench_5"
+    },
+    "tier=6": {
+      "model": "dominatorworkbench:auto_workbench_6"
+    }
+  }
+}

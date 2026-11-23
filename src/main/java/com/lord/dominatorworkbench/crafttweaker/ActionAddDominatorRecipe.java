@@ -1,7 +1,7 @@
 package com.lord.dominatorworkbench.crafttweaker;
 
-import com.lord.dominatorworkbench.recipes.DominatorRecipes;
-import com.lord.dominatorworkbench.recipes.DominatorShapedRecipe;
+import com.lord.dominatorworkbench.recipes.dominator.DominatorRecipes;
+import com.lord.dominatorworkbench.recipes.dominator.DominatorShapedRecipe;
 import crafttweaker.IAction;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
@@ -27,7 +27,7 @@ public class ActionAddDominatorRecipe implements IAction {
             int width = ingredients[0].length;
             int height = ingredients.length;
 
-            // Создаем плоский массив ингредиентов
+            
             Object[] recipeIngredients = new Object[width * height];
 
             int index = 0;

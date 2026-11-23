@@ -1,18 +1,23 @@
 package com.lord.dominatorworkbench.gui;
 
+import com.lord.dominatorworkbench.container.dominator.ContainerDominatorWorkbench;
+import com.lord.dominatorworkbench.tileentity.TileEntityDominatorWorkbench;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.ResourceLocation;
-import com.lord.dominatorworkbench.container.ContainerDominatorWorkbench;
 
 public class GuiDominatorWorkbench extends GuiContainer {
 
     private static final ResourceLocation TEXTURE =
             new ResourceLocation("dominatorworkbench", "textures/gui/dominator_workbench.png");
+    private final InventoryPlayer playerInventory;
+    private final TileEntityDominatorWorkbench tile;
 
-    public GuiDominatorWorkbench(EntityPlayer player) {
-        super(new ContainerDominatorWorkbench(player.inventory, player.world));
+    public GuiDominatorWorkbench(InventoryPlayer playerInventory, TileEntityDominatorWorkbench tile) {
+        super(new ContainerDominatorWorkbench(playerInventory, tile));
+        this.playerInventory = playerInventory;
+        this.tile = tile;
         this.xSize = 300;
         this.ySize = 300;
     }

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "RWR",
+    "IHI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "W": {
+      "item": "dominatorworkbench:workbench",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "dominatorworkbench:auto_workbench",
+    "data": 0,
+    "count": 1
+  }
+}

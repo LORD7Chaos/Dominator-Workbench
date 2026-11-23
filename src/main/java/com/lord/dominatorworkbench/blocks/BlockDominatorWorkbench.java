@@ -1,5 +1,6 @@
 package com.lord.dominatorworkbench.blocks;
 
+import com.lord.dominatorworkbench.tileentity.TileEntityDominatorWorkbench;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -7,6 +8,7 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
@@ -24,7 +26,7 @@ public class BlockDominatorWorkbench extends Block {
         super(Material.WOOD);
         this.setRegistryName("dominator_workbench");
         this.setTranslationKey("dominator_workbench");
-        this.setCreativeTab(CreativeTabs.DECORATIONS);
+        this.setCreativeTab(DominatorWorkbenchMod.dominatorWorkbenchTab);
         this.setHardness(2.5F);
         this.setResistance(5.0F);
     }
@@ -39,6 +41,24 @@ public class BlockDominatorWorkbench extends Block {
         return true;
     }
 
+    @Override
+    public boolean hasTileEntity(IBlockState state) {
+        return true;
+    }
+
+    @Override
+    public TileEntity createTileEntity(World world, IBlockState state) {
+        return new TileEntityDominatorWorkbench();
+    }
+
+    @Override
+    public void breakBlock(World worldIn, BlockPos pos, IBlockState state) {
+        TileEntity te = worldIn.getTileEntity(pos);
+        if (te instanceof TileEntityDominatorWorkbench) {
+            ((TileEntityDominatorWorkbench) te).dropItems();
+        }
+        super.breakBlock(worldIn, pos, state);
+    }
 
     @SideOnly(Side.CLIENT)
     public void initModel() {

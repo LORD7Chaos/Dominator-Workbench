@@ -1,7 +1,7 @@
 package com.lord.dominatorworkbench.crafttweaker;
 
-import com.lord.dominatorworkbench.recipes.DominatorRecipes;
-import com.lord.dominatorworkbench.recipes.DominatorShapelessRecipe;
+import com.lord.dominatorworkbench.recipes.dominator.DominatorRecipes;
+import com.lord.dominatorworkbench.recipes.dominator.DominatorShapelessRecipe;
 import crafttweaker.IAction;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;

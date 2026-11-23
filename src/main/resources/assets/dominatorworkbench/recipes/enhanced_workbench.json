@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WNW",
+    "WWW"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "W": {
+      "item": "dominatorworkbench:workbench",
+      "data": 1
+    }
+  },
+  "result": {
+    "item": "dominatorworkbench:workbench",
+    "data": 2
+  }
+}

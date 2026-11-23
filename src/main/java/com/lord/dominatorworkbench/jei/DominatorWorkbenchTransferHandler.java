@@ -1,11 +1,10 @@
 package com.lord.dominatorworkbench.jei;
 
-import com.lord.dominatorworkbench.container.ContainerDominatorWorkbench;
+import com.lord.dominatorworkbench.container.dominator.ContainerDominatorWorkbench;
 import mezz.jei.api.gui.IRecipeLayout;
 import mezz.jei.api.recipe.transfer.IRecipeTransferError;
 import mezz.jei.api.recipe.transfer.IRecipeTransferHandler;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.inventory.Container;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

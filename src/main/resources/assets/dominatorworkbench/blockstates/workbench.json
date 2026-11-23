@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "tier=0": {
+      "model": "dominatorworkbench:dominator_workbench_basic"
+    },
+    "tier=1": {
+      "model": "dominatorworkbench:dominator_workbench_enhanced"
+    },
+    "tier=2": {
+      "model": "dominatorworkbench:dominator_workbench_master"
+    },
+    "tier=3": {
+      "model": "dominatorworkbench:dominator_workbench_titan"
+    },
+    "tier=4": {
+      "model": "dominatorworkbench:dominator_workbench"
+    },
+    "tier=5": {
+      "model": "dominatorworkbench:dominator_workbench_omega"
+    },
+    "tier=6": {
+      "model": "dominatorworkbench:dominator_workbench_universe"
+    }
+  }
+}
