@@ -1,3 +1,0 @@
-GUI artwork adapted from Extended Crafting Terminals for AE2, licensed LGPL-3.0. Original 3x3, 5x5, 7x7, 9x9 backgrounds are reproduced; 11x11, 13x13, 15x15 use extensions based on its 18px slot artwork.
-Molecular assembler JSON model and machine textures in the existing project are based on Applied Energistics 2 UEL, licensed LGPL-3.0.
-Both upstream source archives were supplied by the project owner. Source code for modified portions is included in this archive.
